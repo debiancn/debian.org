@@ -136,11 +136,13 @@ msgid "64-bit ARM (AArch64)"
 msgstr "64位 PC(amd64)"
 
 #: ../../english/releases/arches.data:12
-msgid "EABI ARM"
+#, fuzzy
+#| msgid "EABI ARM"
+msgid "EABI ARM (armel)"
 msgstr "EABI ARM"
 
 #: ../../english/releases/arches.data:13
-msgid "Hard Float ABI ARM"
+msgid "Hard Float ABI ARM (armhf)"
 msgstr ""
 
 #: ../../english/releases/arches.data:14
@@ -176,25 +178,31 @@ msgid "MIPS (big endian)"
 msgstr "MIPS (big endian)"
 
 #: ../../english/releases/arches.data:22
-msgid "MIPS (little endian)"
+#, fuzzy
+#| msgid "MIPS (little endian)"
+msgid "64-bit MIPS (little endian)"
 msgstr "MIPS (little endian)"
 
 #: ../../english/releases/arches.data:23
+msgid "MIPS (little endian)"
+msgstr "MIPS (little endian)"
+
+#: ../../english/releases/arches.data:24
 msgid "PowerPC"
 msgstr "PowerPC"
 
-#: ../../english/releases/arches.data:24
+#: ../../english/releases/arches.data:25
 msgid "POWER Processors"
 msgstr ""
 
-#: ../../english/releases/arches.data:25
+#: ../../english/releases/arches.data:26
 msgid "IBM S/390"
 msgstr "IBM S/390"
 
-#: ../../english/releases/arches.data:26
+#: ../../english/releases/arches.data:27
 msgid "IBM System z"
 msgstr "IBM System z"
 
-#: ../../english/releases/arches.data:27
+#: ../../english/releases/arches.data:28
 msgid "SPARC"
 msgstr "SPARC"

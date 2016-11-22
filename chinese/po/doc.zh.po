@@ -367,7 +367,7 @@ msgstr "最新版本："
 msgid "(version <get-var version />)"
 msgstr "(version <get-var version />)"
 
-#: ../../english/doc/manuals.defs:138 ../../english/releases/arches.data:36
+#: ../../english/doc/manuals.defs:138 ../../english/releases/arches.data:37
 msgid "plain text"
 msgstr "純文字"
 
@@ -429,11 +429,11 @@ msgstr "Debian 套件"
 msgid "Debian package (archived)"
 msgstr "Debian 套件"
 
-#: ../../english/releases/arches.data:34
+#: ../../english/releases/arches.data:35
 msgid "HTML"
 msgstr ""
 
-#: ../../english/releases/arches.data:35
+#: ../../english/releases/arches.data:36
 msgid "PDF"
 msgstr ""
 

@@ -108,48 +108,52 @@ msgid "Support"
 msgstr "[CN:支持:][HKTW:支援:]"
 
 #: ../../english/template/debian/common_translation.wml:52
+msgid "Pure Blends"
+msgstr ""
+
+#: ../../english/template/debian/common_translation.wml:55
 #: ../../english/template/debian/links.tags.wml:46
 msgid "Developers' Corner"
 msgstr "開發者天地"
 
-#: ../../english/template/debian/common_translation.wml:55
+#: ../../english/template/debian/common_translation.wml:58
 msgid "Documentation"
 msgstr "說明[CN:文檔:][HKTW:文件:]"
 
-#: ../../english/template/debian/common_translation.wml:58
+#: ../../english/template/debian/common_translation.wml:61
 msgid "Security Information"
 msgstr "安全情報"
 
-#: ../../english/template/debian/common_translation.wml:61
+#: ../../english/template/debian/common_translation.wml:64
 msgid "Search"
 msgstr "搜索"
 
-#: ../../english/template/debian/common_translation.wml:64
+#: ../../english/template/debian/common_translation.wml:67
 msgid "none"
 msgstr "無"
 
-#: ../../english/template/debian/common_translation.wml:67
+#: ../../english/template/debian/common_translation.wml:70
 msgid "Go"
 msgstr "去 / Go"
 
-#: ../../english/template/debian/common_translation.wml:70
+#: ../../english/template/debian/common_translation.wml:73
 msgid "worldwide"
 msgstr "全球"
 
-#: ../../english/template/debian/common_translation.wml:73
+#: ../../english/template/debian/common_translation.wml:76
 msgid "Site map"
 msgstr "網站地圖"
 
-#: ../../english/template/debian/common_translation.wml:76
+#: ../../english/template/debian/common_translation.wml:79
 msgid "Miscellaneous"
 msgstr "雜項"
 
-#: ../../english/template/debian/common_translation.wml:79
+#: ../../english/template/debian/common_translation.wml:82
 #: ../../english/template/debian/links.tags.wml:107
 msgid "Getting Debian"
 msgstr "取得 Debian"
 
-#: ../../english/template/debian/common_translation.wml:82
+#: ../../english/template/debian/common_translation.wml:85
 #, fuzzy
 #| msgid "Debian Books"
 msgid "The Debian Blog"
@@ -200,7 +204,7 @@ msgstr "release 2.2 中"
 #. you can add some information of your own translation mailing list
 #. (i.e. debian-l10n-XXXXXX@lists.debian.org) for reporting things in
 #. your language.
-#: ../../english/template/debian/footer.wml:97
+#: ../../english/template/debian/footer.wml:105
 #, fuzzy
 #| msgid ""
 #| "To report a problem with the web site, e-mail <a href=\"mailto:debian-"
@@ -220,23 +224,23 @@ msgstr ""
 "href=\"mailto:debian-l10n-chinese@lists.debian.org\">debian-l10n-"
 "chinese@lists.debian.org</a>。"
 
-#: ../../english/template/debian/footer.wml:100
+#: ../../english/template/debian/footer.wml:108
 msgid "Last Modified"
 msgstr "最近修訂日期"
 
-#: ../../english/template/debian/footer.wml:103
+#: ../../english/template/debian/footer.wml:111
 msgid "Copyright"
 msgstr "版權所有"
 
-#: ../../english/template/debian/footer.wml:106
+#: ../../english/template/debian/footer.wml:114
 msgid "<a href=\"http://www.spi-inc.org/\">SPI</a> and others;"
 msgstr ""
 
-#: ../../english/template/debian/footer.wml:109
+#: ../../english/template/debian/footer.wml:117
 msgid "See <a href=\"m4_HOME/license\" rel=\"copyright\">license terms</a>"
 msgstr "查閱<a href=\"m4_HOME/license\" rel=\"copyright\">許可證條款</a>"
 
-#: ../../english/template/debian/footer.wml:112
+#: ../../english/template/debian/footer.wml:120
 msgid ""
 "Debian is a registered <a href=\"m4_HOME/trademark\">trademark</a> of "
 "Software in the Public Interest, Inc."
