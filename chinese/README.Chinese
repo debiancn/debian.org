@@ -1,3 +1,89 @@
+README and guidelines for Chinese Translators
+=============================================
+
+* last-update: 2016-11-23
+
+Working Notice
+--------------
+
+(None yet).
+
+Page generation HOWTO
+---------------------
+
+How to refresh Chinese translations?
+
+* Make sure you have installed gettext tools.
+* Chdir into chinese/po.
+* Run `make update-po`.
+
+How to regenerate Chinese pages?
+
+* Make sure you have installed common tools:
+  - webwml
+  - mp4h
+* Make sure you have installed tools needed for chinese team:
+  - opencc (1.0+ recommended, 0.4+ mandatory)
+* Make sure you downloaded the full webwml files.
+* Make sure the top directory is called `webwml`.
+* Chdir into chinese directory.
+* Run `make`.
+
+(None yet.)
+
+Team Coordination
+-----------------
+
+The Chinese translation and localization work is organized under
+Debian Chinese Team (https://chinese.alioth.debian.org/).
+
+Visit the team website for more information.
+
+* Working maillist:
+    debian-l10n-chinese@lists.debian.org
+* Discussion maillist (Simplified Chinese):
+    debian-chinese-gb@lists.debian.org
+* Discussion maillist (Traditional Chinese):
+    debian-chinese-big5@lists.debian.org (largely dead)
+
+The works may be committed into webwml repository by:
+
+    Anthony Wong <ypwong at gmail.com>
+
+Encodings
+---------
+
+We Chinese team used to used two different encodings: GBK and BIG5.
+That is not the case today.
+
+In short: all texts *must* be in UTF-8.
+
+Chinese transformation between CN/HK/TW/...
+-------------------------------------------
+
+We are using the same source wml file to generate different pages for
+Chinese variants.
+
+Supported Chinese variants:
+- `zh_CN` (Simplified Chinese)
+- `zh_TW` (Traditional Chinese)
+- `zh_HK` (Tranditional Chinese)
+
+Additional tools are required. The core tool is called opencc. It is
+needed to generate Chinese pages.
+
+With the upcoming release of Debian 9 and new version of opencc, we are
+looking forward to refactor the source code. Things may change in the
+future.
+
+TODO: check if we could use zh-autoconvert here.
+
+----------------------------------------------------------------------
+
+The following texts are leftovers of old notes. They are outdated.
+
+----------------------------------------------------------------------
+
 NOTE TO TRANSLATORS (2004-02-03):
 
 The Debian web team has started removing translations that are more
