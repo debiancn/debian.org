@@ -1,9 +1,9 @@
 #use wml::debian::template title="安全情報" GEN_TIME="yes"
 #use wml::debian::toc
-#use wml::debian::recent_list
-#use wml::debian::translation-check translation="1.90" maintainer="Kanru Chen"
+#use wml::debian::recent_list_security
+#use wml::debian::translation-check translation="1.91" maintainer="Boyuan Yang"
 
-# Translator: dimension <g9113@cs.nccu.edu.tw>, Tue Dec 10 13:32:52 CST 2002
+# Translator: hosiet-guest <073plan@gmail.com>, Tue Nov 29 10:14:21 CST 2016
 # Checked by chihchun, Wed, 18 Dec 2002 10:26:23 +0800
 # $Id$
 
@@ -27,8 +27,8 @@
 
 <p>Debian 也參與了安全防護標準化的工作：
 <a href="#DSAS">Debian 安全情報</a> 是
-<a href="cve-compatibility">CVE-Compatible</a> 的
-(查看<a href="crossreferences">交互參照</a>)，且 Debian 是
+<a href="cve-compatibility">CVE-兼容</a> 的
+（請見<a href="crossreferences">交互參照</a>），且 Debian 是
 <a href="http://oval.mitre.org/">Open Vulnerability Assessment Language</a>
 計劃的一員。</p>
 
@@ -57,11 +57,11 @@ href="https://packages.debian.org/stable/admin/apt">apt</a> 來下載最新的
 <a class="rss_logo" href="dsa">RSS</a>
 <toc-add-entry name="DSAS">最新警報</toc-add-entry>
 
-<p>已發佈在<a href="https://lists.debian.org/debian-security-announce/">
-debian-security-announce</a> 列表的安全警報。</p>
+<p>這些網頁包含已發佈在<a href="https://lists.debian.org/debian-security-announce/">
+debian-security-announce</a> 列表的安全警報的概要[CN:信息:][HKTW:資訊:]。</p>
 
 <p>
-<:= get_recent_list( '1m', '6', '$(ENGLISHDIR)/security', 'bydate', 'dsa-\d+' ) :>
+<:= get_recent_security_list( '1m', '6', '.', '$(ENGLISHDIR)/security' ) :>
 </p>
 
 {#rss#:
@@ -70,10 +70,10 @@ debian-security-announce</a> 列表的安全警報。</p>
 <link rel="alternate" type="application/rss+xml"
  title="Debian Security Advisories (summaries)" href="dsa-long">
 :#rss#}
-<p>Debian 最新安全情報同時也提供 <a href="dsa">RDF</a> 的格式。我們也提
-供<a href="dsa-long">另[CN:一個文件:][HKTW:一個[CN:文
-件:][HKTW:檔:]案:]</a>，它包含了相對應情報的第一段，所以，您可以了解該
-情報是關於什麼的。</p>
+<p>Debian 最新安全情報同時也提供 <a href="dsa">RDF 格式</a>。我們也提
+供<a href="dsa-long">另[CN:一个文件:][HKTW:一個檔案:]</a>，
+它包含了相對應情報的第一段，所以，您可以了解該
+情報的簡要內容。</p>
 
 #include "$(ENGLISHDIR)/security/index.include"
 <p>舊的警報:
