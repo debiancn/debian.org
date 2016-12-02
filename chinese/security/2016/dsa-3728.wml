@@ -1,0 +1,14 @@
+<define-tag description>安全更新</define-tag>
+<define-tag moreinfo>
+<p>在 Mozilla Firefox 网页浏览器中有关 SVG 动画中一个资源释放后使用的弱点
+已被发现，该漏洞允许远程攻击者在用户被恶意指引访问被特别设计过的网站时
+制造拒绝服务攻击（应用程序崩溃）或执行任意代码。</p>
+
+<p>对稳定版（jessie），这个问题已经在 45.5.1esr-1~deb8u1 版本中修复。</p>
+
+<p>我们推荐您升级您的 firefox-esr 软件包。</p>
+</define-tag>
+
+# do not modify the following line
+#include "$(ENGLISHDIR)/security/2016/dsa-3728.data"
+# $Id$
