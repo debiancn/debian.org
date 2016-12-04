@@ -1,9 +1,9 @@
 #use wml::debian::template title="雜項"
-#use wml::debian::translation-check translation="1.10" maintainer="Hsin-lin Cheng"
+#use wml::debian::translation-check translation="1.11" maintainer="Hsin-lin Cheng"
 
-<p>網站的這部份是所有不適合放在其他地方的事物。 
+<p>網站的這部份放置所有不適合放在其他地方的事物。 
 
-<p>Debian distribution 與網站有贏得一些獎項，你在<a href="awards">獎項頁面
+<p>Debian 發行版與網站有贏得一些獎項，你在<a href="awards">獎項頁面
 </a>可以找到。
 
 <p>如果你想看由其他公司所製作有 Debian logo 的週邊商品，你會想看看我們的
@@ -21,6 +21,9 @@ Debian。
 
 <p>Debian 也有屬於各種不同組織的<a href="memberships">成員</a>。
 
+<p>Debian 發佈<a href="../reports/">報告</a>並發表有關自由軟件主題的一些
+觀點陳述。</p>
+
 <p>我們也有頁面是給<a href="laptops/">在筆記本電腦使用 Debian</a> 的人。
 
-<p>也有整個章節是關於<a href="../mirror/">映射(mirroring) Debian</a>。</p>
+<p>也有一整個章節闡述關於<a href="../mirror/">鏡像(mirroring) Debian</a>的內容。</p>
