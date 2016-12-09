@@ -1,0 +1,74 @@
+#use wml::debian::template title="Debian 原味特调版" BARETITLE="true"
+
+<p>
+Debian 原味特调版（Debian Pure Blends）是针对具有特定需求的人群的系统解决方案。
+它们不仅提供合适的特定软件集合（以元软件包的形式），同时它们能够使得针对
+特定目标进行的系统安装与配置变得更加容易。
+它们覆盖了不同人群的不同需求，可能涉及的群体包括儿童、科学家、游戏爱好者、
+律师、医学工作者、视觉障碍者等等。
+它们的共同目标是：针对特定用户群体，简化其系统安装与管理操作，
+并将目标用户和编写、打包他们所使用软件的开发者联系起来。
+</p>
+
+<p>您可以在 <a href="http://blends.debian.org/blends/">Pure Blends Manual</a>
+获取有关 Debian 原味特调版的更多信息。</p>
+
+<ul class="toc">
+<li><a href="#released">已发布的原味特调版本</a></li>
+<li><a href="#unreleased">即将发布的原味特调版本</a></li>
+<li><a href="#development">开发工作</a></li>
+</ul>
+
+<div class="card" id="released">
+<h2>已发布的原味特调版本</h2>
+<div>
+<p>“已发布”一词对不同的特调版本可能有不同的含义。在大多数情况下，它意味着该版本
+已经有了对应的元软件包或者安装器，且已经随着稳定版本的 Debian 一同发布。
+特调版本也可能提供安装介质，或者成为某些衍生发行版的基础。
+请查看对应的特调版本页面来获取特定版本的更多信息。</p>
+
+<table class="tabular" summary="">
+<tbody>
+ <tr>
+  <th>特调版本</th>
+  <th>描述</th>
+  <th>快速链接</th>
+ </tr>
+#include "../../english/blends/released.data"
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="card" id="unreleased">
+  <h2>即将发布的特调版本</h2>
+  <div>
+   <p>这些特调版本正在进行开发，且尚未出现在先前发布的稳定版中。
+   尽管如此，它们可能已经在
+<a href="https://www.debian.org/releases/testing/">测试版</a>或者<a
+href="https://www.debian.org/releases/unstable">不稳定版</a>中已经出现。
+某些即将发布的原味特调版本可能仍然依赖某些非自由（non-free）的软件组件。</p>
+  
+<table class="tabular" summary="">
+<tbody>
+ <tr>
+  <th>特调版本</th>
+  <th>描述</th>
+  <th>快速链接</th>
+ </tr>
+#include "../../english/blends/unreleased.data"
+</tbody>
+</table>
+  </div>
+ </div>
+ 
+ <div class="card" id="development">
+  <h2>开发工作</h2>
+  <div>
+   <p>如果您对参与 Debian 原味特调版的开发工作有兴趣，您可以在
+   <a href="https://wiki.debian.org/DebianPureBlends">维基页面</a>
+   上找到开发工作相关的信息。
+   </p>
+  </div>
+</div><!-- #main -->
+
